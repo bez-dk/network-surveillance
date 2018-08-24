@@ -1,0 +1,15 @@
+/.idea
+/codeception.yml
+/composer.lock
+/config/local.*
+/config/dev.*
+/tests/_output
+/tests/_support/_generated
+/tests/*.suite.yml
+/modules
+/private
+/runtime
+/vendor
+/webroot/assets/**/*
+!.gitkeep
+.sql-status.json
