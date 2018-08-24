@@ -1,0 +1,30 @@
+{
+  "name": "bez-dk/network-surveillance",
+  "description": "Module to manage and log network traffic",
+  "type": "kodus-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jonas Storm Nikolajsen",
+      "email": "jonas@bez.dk"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.fynskemedier.dk"
+    }
+  ],
+  "require": {
+    "kodus/score": "^0.18.3",
+    "kodus/database": "^0.7.6",
+    "kodus/authentication": "^0.6.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Bez\\NetworkSurveillance\\": "src/"
+    }
+  }
+}
